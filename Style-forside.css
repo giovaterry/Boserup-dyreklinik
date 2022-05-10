@@ -36,9 +36,11 @@ header nav{
   ul{
       list-style-type: none;
       display: flex;
+      margin-right: 70px;
   }
   a{
       text-decoration: none;
+      
   }
 
 nav img{
