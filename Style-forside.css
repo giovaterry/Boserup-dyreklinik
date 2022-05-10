@@ -21,6 +21,8 @@ body{
 
 header{
     background-color:#DBCFBF;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav{
@@ -37,17 +39,20 @@ header nav{
   }
 
   nav h1{
-      margin-right: 80rem;
+      font-weight: bolder;
   }
   
-  ul{
-      list-style-type: none;
-      display: flex;
-      margin-right: 70px;
-  }
   a{
       text-decoration: none;
       
+  }
+
+  nav li{
+    margin: 10px;
+  }
+
+  ul li{
+    display: inline-block;
   }
 
 nav img{
