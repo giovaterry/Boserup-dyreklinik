@@ -72,6 +72,14 @@ nav img{
     overflow: hidden;
   }
 
+/*3 ikoners billede vha. flexbox rows i mobile og colums på desktop*/
+
+.overskrift{
+  display: flex;
+  margin: 0 25px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
 
   .container{
     display: flex;
