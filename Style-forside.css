@@ -76,10 +76,12 @@ footer .kontakt{
   color: white;
 }
 
-.kontakt {
+.adresse, .åbningstider, .kontakt-SoMe{
+  font-weight: bold;
 }
 
-.instagram img{
+
+footer .instagram img{
   height: 50px;
   width: 50px;
 }
