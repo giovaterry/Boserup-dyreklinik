@@ -61,17 +61,22 @@ nav img{
 
 footer{
  display: flex;
- column-gap: 15rem;
+ justify-content: space-between;
  background-color: #22365E;
  position: absolute;
  width: 100%;
  bottom: 0;
 }
 
-footer p{
-  font-size: 18px;
-  margin: 2.5%;
+footer .kontakt{
+  font-size: 20px;
+  margin: 2.2%;
+  margin-left: 7%;
+  margin-right: 7%;
   color: white;
+}
+
+.kontakt {
 }
 
 .instagram img{
