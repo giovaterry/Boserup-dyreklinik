@@ -86,7 +86,13 @@ footer .kontakt{
 }
 
 
-footer .instagram img{
+footer .instagram img, .facebook img{
   height: 50px;
   width: 50px;
+  margin: 0.5rem;
+
+}
+
+.sociale-medie {
+  display: flex;
 }
