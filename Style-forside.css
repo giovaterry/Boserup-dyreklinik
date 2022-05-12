@@ -116,6 +116,9 @@ section{
 
 
 main{
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
   
 }
 .banner-klinik{
@@ -144,6 +147,7 @@ main button{
   border: none;
   padding: 20px;
   border-radius: 25px;
+  margin-top: 45%;
   
 }
 
