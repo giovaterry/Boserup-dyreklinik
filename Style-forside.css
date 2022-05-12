@@ -56,11 +56,8 @@ nav img{
     float: left;
   }
 
-section{
-  background-color: aquamarine;
-}
   section img{
-    
+    float: right;
   }
 
   section p{
@@ -115,9 +112,7 @@ section{
 
 
 
-main{
-  
-}
+
 .banner-klinik{
   width: 100%;
   height: 100%;
