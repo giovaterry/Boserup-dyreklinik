@@ -57,11 +57,11 @@ nav img{
   }
 
 
-  section img{
+  .info img{
     float: right;
   }
 
-  section p{
+  .info p{
     font-weight: bold;
     font-size: large;
     margin: 55px 20px;
@@ -77,7 +77,8 @@ nav img{
 .overskrift{
   display: flex;
   margin: 0 25px;
-  margin-bottom: 25px;
+  margin-top: 15rem;
+  margin-bottom: 5rem;
   justify-content: center;
 }
 
