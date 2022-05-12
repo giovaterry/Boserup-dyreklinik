@@ -120,7 +120,15 @@ nav img{
   background-size: cover;
   background-position: center;
   position: relative;
-  filter: brightness(50%);
+  filter: brightness(70%);
+}
+
+.banner-tekst{
+  position: absolute;
+  z-index: 1;
+  color: #ffff;
+  font-size: 55px;;
+  font-weight: bold;
 }
 
 
@@ -137,7 +145,7 @@ footer .kontakt{
   margin: 2.2%;
   margin-left: 7%;
   margin-right: 7%;
-  color: white;
+  color: #ffff;
 }
 
 .adresse, .åbningstider, .kontakt-SoMe{
