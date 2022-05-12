@@ -112,7 +112,16 @@ nav img{
 
 
 
+<<<<<<< HEAD
 
+=======
+main{
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
+  
+}
+>>>>>>> bbbf2ecd9fc745af2bd0155993b69861c7d7d796
 .banner-klinik{
   width: 100%;
   height: 100%;
@@ -139,9 +148,14 @@ main button{
   border: none;
   padding: 20px;
   border-radius: 25px;
+  margin-top: 45%;
   
 }
 
+.banner-knap{
+  z-index: 1;
+  position: absolute;
+}
 
 footer{
  display: flex;
