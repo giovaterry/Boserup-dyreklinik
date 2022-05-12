@@ -152,11 +152,11 @@ nav img{
 }
 
 main button{
-  background-color: green;
+  background-color: #D4E7C9;
   font-size: 27px;
-  color: white;
+  font-weight: 400;
   border: none;
-  padding: 20px;
+  padding: 22px;
   border-radius: 25px;
   margin-top: 45%;
   
