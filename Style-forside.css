@@ -156,6 +156,7 @@ nav img{
   font-size: 55px;;
   font-weight: bold;
   text-align: center;
+  text-shadow: 2px 2px 2px #000000;
   
 }
 
@@ -165,8 +166,9 @@ main button{
   font-weight: 400;
   border: none;
   padding: 22px;
-  border-radius: 25px;
+  border-radius: 35px;
   margin-top: 45%;
+  box-shadow: 0.5px 0.5px 3px #000000;
   
 }
 
