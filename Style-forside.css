@@ -144,6 +144,10 @@ main button{
   
 }
 
+.banner-knap{
+  z-index: 1;
+  position: absolute;
+}
 
 footer{
  display: flex;
