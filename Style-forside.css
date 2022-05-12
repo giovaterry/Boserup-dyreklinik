@@ -116,13 +116,21 @@ nav img{
     background-color: #DBCFBF;
   }
 
-  .profilbillede img{
-   width: 25px;
-   height: 25px;
+  .profil img{
+  padding: 55px;
+  width: 25%;
+  height: 25%;
+
   }
 
-  .point{
-    list-style: square;
+  .profil h1{
+    float: right;
+    margin-right: 30rem;
+    font-weight: 600;
+  }
+
+  .profil ul li{
+    list-style-type: circle;
   }
 
   main{
