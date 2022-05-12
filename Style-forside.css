@@ -168,7 +168,9 @@ main button{
   padding: 22px;
   border-radius: 35px;
   margin-top: 45%;
-  box-shadow: 0.5px 0.5px 3px #000000;
+  box-shadow: 0.5px 0.5px 1px #000000;
+  margin-left: 15px;
+  margin-right: 15px;
   
 }
 
