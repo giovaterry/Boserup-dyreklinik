@@ -110,6 +110,21 @@ nav img{
     font-weight: bold;
   }
 
+  /*profil omkring tine*/
+
+  .profil{
+    background-color: #DBCFBF;
+  }
+
+  .profilbillede img{
+   width: 25px;
+   height: 25px;
+  }
+
+  .point{
+    list-style: square;
+  }
+
   main{
     display: flex;
     white-space: nowrap;
