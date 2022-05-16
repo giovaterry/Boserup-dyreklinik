@@ -227,6 +227,12 @@ footer .instagram img, .facebook img{
 }
 
 
-@media  and (min-width:768px) {
-  
+@media screen  and (min-width:768px) {
+  .priser img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+  }
 }
