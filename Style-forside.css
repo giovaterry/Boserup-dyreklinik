@@ -185,6 +185,15 @@ main button{
   position: absolute;
 }
 
+/*PRISER*/
+
+.priser{
+  width: 100%;
+  display: block;
+  align-items: center;
+}
+
+
 footer{
  display: flex;
  justify-content: space-between;
