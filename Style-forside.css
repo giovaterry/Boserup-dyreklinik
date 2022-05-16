@@ -225,3 +225,8 @@ footer .instagram img, .facebook img{
 .sociale-medie {
   display: flex;
 }
+
+
+@media  and (min-width:768px) {
+  
+}
