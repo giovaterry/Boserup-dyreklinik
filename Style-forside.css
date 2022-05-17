@@ -127,19 +127,20 @@ nav img{
   width: 25%;
   max-width: 100;
   height: 25%;
+  margin-bottom: 20px;
   }
 
-  .profil h1{
+  .profil .om-tekst h1{
     font-weight: 600px;
-    margin-left: 40px;
-    margin-top: 50px;
-    margin-bottom: 70px;
+    margin-top: 150px;
+    margin-right: 55px;
+    margin-bottom: 50px;
   }
 
   .profil ul li{
     font-weight: 550;
     font-size: large;
-    margin: 13px;
+    padding-right: 150px;
   }
 
   /*velkommen til dyrlæge tine boserup banner*/
@@ -204,6 +205,11 @@ main button{
   align-items: center;
 }
 
+.priser img{
+  width: 100%;
+  height: auto;
+}
+
 /*Footer*/
 
 footer{
@@ -247,4 +253,33 @@ footer .instagram img, .facebook img{
     width: 50%;
     margin-top: 25px;
   }
+
+
+    /*profil omkring tine*/
+
+    .profil{
+      background-color: #DBCFBF;
+      display: flex;
+    }
+  
+    .profil img{
+    padding: 55px;
+    width: 25%;
+    max-width: 100;
+    height: 25%;
+    }
+  
+    .profil h1{
+      font-weight: 600px;
+      margin-left: 40px;
+      margin-top: 50px;
+      margin-bottom: 70px;
+    }
+  
+    .profil ul li{
+      font-weight: 550;
+      font-size: large;
+      margin: 13px;
+    }
+
 }
