@@ -166,6 +166,12 @@ nav img{
   
 }
 
+.ring, .hverdage{
+  font-weight: 545;
+}
+
+
+
 main button{
   background-color: #D4E7C9;
   font-size: 27px;
