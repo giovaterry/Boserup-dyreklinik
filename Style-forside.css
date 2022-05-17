@@ -126,17 +126,17 @@ nav img{
 
   .profil h1{
     font-weight: 600px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 70px;
   }
 
   .profil ul li{
     font-weight: 550;
     font-size: large;
+    margin: 13px;
   }
 
- .om-tekst{
-
-
- }
   /*velkommen til dyrlæge tine boserup banner*/
 
   main{
