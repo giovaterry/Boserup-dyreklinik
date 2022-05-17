@@ -114,6 +114,7 @@ nav img{
 
   .profil{
     background-color: #DBCFBF;
+    display: flex;
   }
 
   .profil img{
@@ -121,23 +122,22 @@ nav img{
   width: 25%;
   max-width: 100;
   height: 25%;
-
   }
 
   .profil h1{
-    float: right;
-    margin-right: 50rem;
-    font-weight: 600;
+    font-weight: 600px;
   }
 
   .profil ul li{
-    list-style-type: circle;
-    display: flex;
-    margin-left: 40rem;
-    text-align: justify;
     font-weight: 550;
     font-size: large;
   }
+
+ .om-tekst{
+
+
+ }
+  /*velkommen til dyrlæge tine boserup banner*/
 
   main{
     display: flex;
@@ -193,6 +193,7 @@ main button{
   align-items: center;
 }
 
+/*Footer*/
 
 footer{
  display: flex;
