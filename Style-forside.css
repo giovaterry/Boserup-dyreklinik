@@ -1,7 +1,9 @@
+/*styling her får scrolling til være mere smooth i dens animation*/
 html{
     scroll-behavior: smooth;
 }
 
+/*i body indeholde det mere de basiske kode som har en global effekt på koden*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
 body{
     margin: 0;
@@ -11,7 +13,7 @@ body{
     font-family: 'Nunito', sans-serif;
     
 }
-
+/*headeren med navigationen*/
 header{
     background-color:#DBCFBF;
     display: flex;
@@ -60,6 +62,62 @@ nav img{
     margin-top: 0px;
     float: left;
   }
+
+  /*velkommen til dyrlæge tine boserup banner*/
+
+  main{
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    
+  }
+
+.banner-klinik{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  filter: brightness(70%);
+}
+
+.banner-tekst{
+  position: absolute;
+  z-index: 1;
+  color: #ffff;
+  font-size: 55px;;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+  
+}
+
+.ring, .hverdage{
+  font-weight: medium;
+}
+
+
+
+main button{
+  background-color: #D4E7C9;
+  font-size: 27px;
+  font-weight: 400;
+  border: none;
+  padding: 22px;
+  border-radius: 35px;
+  margin-top: 45%;
+  box-shadow: 0.5px 0.5px 1px #000000;
+  margin-left: 15px;
+  margin-right: 15px;
+  
+}
+
+.banner-knap{
+  z-index: 1;
+  position: absolute;
+}
+
+  /*Information omkring lidt af dyreklinikken*/
 
   .infobox img{
     float: right;
@@ -142,62 +200,7 @@ nav img{
     font-weight: 550;
 
   }
-
-
-  /*velkommen til dyrlæge tine boserup banner*/
-
-  main{
-    display: flex;
-    white-space: nowrap;
-    justify-content: center;
-    
-  }
-
-.banner-klinik{
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  filter: brightness(70%);
-}
-
-.banner-tekst{
-  position: absolute;
-  z-index: 1;
-  color: #ffff;
-  font-size: 55px;;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 2px 2px 2px #000000;
   
-}
-
-.ring, .hverdage{
-  font-weight: medium;
-}
-
-
-
-main button{
-  background-color: #D4E7C9;
-  font-size: 27px;
-  font-weight: 400;
-  border: none;
-  padding: 22px;
-  border-radius: 35px;
-  margin-top: 45%;
-  box-shadow: 0.5px 0.5px 1px #000000;
-  margin-left: 15px;
-  margin-right: 15px;
-  
-}
-
-.banner-knap{
-  z-index: 1;
-  position: absolute;
-}
-
 /*PRISER*/
 
 .priser{
