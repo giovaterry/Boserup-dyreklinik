@@ -49,7 +49,7 @@ header nav{
     margin: 10px;
   }
 
-  ul li{
+  nav ul li{
     display: inline-block;
     font-weight: bolder;
   }
@@ -133,9 +133,9 @@ nav img{
 
   .profil .om-tekst h1{
     font-weight: 600px;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-right: 55px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   .profil ul li{
@@ -282,5 +282,12 @@ footer .instagram img, .facebook img{
       font-size: large;
       margin: 13px;
     }
+
+
+    footer {
+      max-width: 100%;
+    }
+
+
 
 }
