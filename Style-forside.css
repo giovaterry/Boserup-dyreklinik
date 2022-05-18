@@ -65,12 +65,12 @@ nav img{
 
   /*velkommen til dyrlæge tine boserup banner*/
 
-  main{
+main{
     display: flex;
     white-space: nowrap;
     justify-content: center;
     
-  }
+}
 
 .banner-klinik{
   width: 100%;
