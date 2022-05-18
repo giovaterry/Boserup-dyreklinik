@@ -200,7 +200,7 @@ main button{
     font-weight: 550;
 
   }
-  
+
 /*PRISER*/
 
 .priser{
@@ -214,7 +214,7 @@ main button{
   height: auto;
 }
 
-/*Footer*/
+/*Footer med praktiske oplysninger og ikoner*/
 
 footer{
  display: flex;
@@ -249,6 +249,7 @@ footer .instagram img, .facebook img{
 }
 
 
+/*media queries hvor vi går fra mobil til dekstop*/
 @media screen  and (min-width:768px) {
   .priser img{ 
     display: block;
