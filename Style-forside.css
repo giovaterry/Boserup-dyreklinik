@@ -233,7 +233,7 @@ main button{
 /*Footer med praktiske oplysninger og ikoner*/
 
 footer{
- display: flex;
+
  justify-content: space-between;
  background-color: #22365E;
  width: 100%;
@@ -241,6 +241,7 @@ footer{
 }
 
 footer .kontakt{
+  padding-top: 1%;
   font-size: 20px;
   margin: 2.2%;
   margin-left: 7%;
@@ -261,7 +262,7 @@ footer .instagram img, .facebook img{
 }
 
 .sociale-medie {
-  display: flex;
+display: flex;
 }
 
 
@@ -319,7 +320,6 @@ main button{
   box-shadow: 0.5px 0.5px 1px #000000;
   margin-left: 15px;
   margin-right: 15px;
-  
   
 }
 
@@ -383,10 +383,40 @@ main button{
       margin: 13px;
     }
 
+/*Footer med praktiske oplysninger og ikoner*/
 
-    footer {
-      max-width: 100%;
-    }
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #22365E;
+  width: 100%;
+  bottom: 0;
+ }
+ 
+ footer .kontakt{
+   font-size: 20px;
+   margin: 2.2%;
+   margin-left: 7%;
+   margin-right: 7%;
+   color: #ffff;
+ }
+ 
+ .adresse, .åbningstider, .kontakt-SoMe{
+   font-weight: bold;
+ }
+ 
+ 
+ footer .instagram img, .facebook img{
+   height: 50px;
+   width: 50px;
+   margin: 0.5rem;
+ 
+ }
+ 
+ .sociale-medie {
+   display: flex;
+ }
+ 
 
 
 }
