@@ -47,6 +47,24 @@ header nav{
       
   }
 
+  a::after{
+    content: "";
+    position: absolute;
+    height: ;
+    width: 100%;
+    left: 0;
+    bottom: ;
+    transition: 0.3s;
+  }
+
+  a:hover:after{
+    width: 100%;
+  }
+
+  a:hover{
+    
+  }
+
   nav li{
     margin: 10px;
   }
