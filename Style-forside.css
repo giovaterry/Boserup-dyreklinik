@@ -138,18 +138,18 @@ main button{
   /*Information omkring lidt om dyreklinikken*/
 
   .infobox img{
-    width: 50%;
-    height: 50%;
-    align-items: center;
+    float: right;
   }
 
   .infobox p{
     font-weight: bold;
+    font-size: large;
     margin: 55px 20px;
     word-wrap: break-word;
     display: -webkit-box;
-    -webkit-line-clamp: ;
+    -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
 /*3 ikoners billede vha. flexbox rows i mobile og colums på desktop*/
