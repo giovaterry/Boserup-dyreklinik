@@ -281,6 +281,11 @@ display: flex;
 
 /*media queries hvor vi går fra mobil til dekstop*/
 @media screen  and (min-width:768px) {
+  
+  nav a{
+    font-size: large;
+  }
+  
   .priser img{ 
     display: block;
     margin-left: auto;
