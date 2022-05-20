@@ -137,12 +137,15 @@ main button{
 
   .infobox img{
     float: right;
+    margin-right: 45px;
+    width: 25%;
   }
 
   .infobox p{
     font-weight: bold;
     font-size: large;
-    margin: 55px 20px;
+    padding-left: 55px;
+    padding-top: 3rem;
     word-wrap: break-word;
     display: -webkit-box;
     -webkit-line-clamp: 7;
@@ -283,6 +286,10 @@ display: flex;
     
 }
 
+.infobox p{
+  font-size: medium;
+}
+
 .banner-klinik{
   width: 100%;
   height: 100%;
@@ -334,6 +341,7 @@ main button{
 
   .infobox img{
     float: right;
+    width: fit-content;
   }
 
   .infobox p{
