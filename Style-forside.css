@@ -138,6 +138,7 @@ main button{
   .infobox img{
     float: right;
     margin-right: 45px;
+    width: 25%;
   }
 
   .infobox p{
@@ -340,6 +341,7 @@ main button{
 
   .infobox img{
     float: right;
+    width: fit-content;
   }
 
   .infobox p{
