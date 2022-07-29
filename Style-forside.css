@@ -44,13 +44,14 @@ header nav{
   
   a{
       text-decoration: none;
+      color: ;
   }
 
 
 /*fixer hovereffekten og den standard farve*/
-a { color: black }
+a { color: #fff }
 
-a:visited { text-decoration: none; color:black; }
+a:visited { text-decoration: none; color:#fff; }
 
 
   nav li{
@@ -276,6 +277,10 @@ footer .instagram img, .facebook img{
 display: flex;
 }
 
+.instagram{
+  display: none;
+ }
+
 
 /*media queries hvor vi går fra mobil til dekstop*/
 @media screen  and (min-width:768px) {
@@ -436,6 +441,9 @@ footer{
  
  .sociale-medie {
    display: flex;
+ }
+ .instagram{
+  display: none;
  }
  
 
